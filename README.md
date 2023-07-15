@@ -1,9 +1,9 @@
-# Arduino-Weather-Station
+# ESP8266-Weather-Station
 
 ## Table of contents
 
 -   [Overview](#overview)
--   [Ardoino](#ardoino)
+-   [ESP8266](#esp8266)
     -   [Function](#function)
     -   [Build](#build)
     -   [Dependencies](#dependencies)
@@ -19,7 +19,7 @@
 
 ## Overview
 
-## Ardoino
+## ESP8266
 
 ### Function
 
