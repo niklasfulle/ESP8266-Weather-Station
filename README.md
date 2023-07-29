@@ -2,20 +2,20 @@
 
 ## Table of contents
 
--   [Overview](#overview)
--   [ESP8266](#esp8266)
-    -   [Function](#function)
-    -   [Build](#build)
-    -   [Dependencies](#dependencies)
--   [Backend](#backend)
-    -   [Function](#function)
-    -   [Build](#build)
-    -   [Dependencies](#dependencies)
--   [Frontend](#frontend)
-    -   [Function](#function)
-    -   [Build](#build)
-    -   [Dependencies](#dependencies)
--   [Images](#images)
+- [Overview](#overview)
+- [ESP8266](#esp8266)
+  - [Function](#function)
+  - [Build](#build)
+  - [Dependencies](#dependencies)
+- [Backend](#backend)
+  - [Function](#function)
+  - [Build](#build)
+  - [Dependencies](#dependencies)
+- [Frontend](#frontend)
+  - [Function](#function)
+  - [Build](#build)
+  - [Dependencies](#dependencies)
+- [Images](#images)
 
 ## Overview
 
@@ -58,7 +58,7 @@ cd backend
 3. Install dependencies
 
 ```bash
-npm install
+npm i
 ```
 
 4. Create a .env file in the root directory and add the following environment variables
@@ -74,14 +74,15 @@ DB_NAME=weather_station
 5. Start the server
 
 ```bash
-npm start
+npm run dev
 ```
 
 ### Dependencies
 
-| Name    | Version | Link                           |
-| ------- | ------- | ------------------------------ |
-| Node.js | 18.16.0 | [Link](https://nodejs.org/en/) |
+| Name       | Version | Link                                    |
+| ---------- | ------- | --------------------------------------- |
+| Node.js    | 18.16.0 | [Link](https://nodejs.org/en/)          |
+| TypeScript | 5.1.6   | [Link](https://www.typescriptlang.org/) |
 
 ## Frontend
 
@@ -100,7 +101,7 @@ cd frontend
 2. Install dependencies
 
 ```bash
-npm install
+npm i
 ```
 
 3. Create a .env file in the root directory and add the following environment variables
@@ -112,13 +113,18 @@ REACT_APP_API_URL=http://localhost:3000
 4. Start the server
 
 ```bash
-npm start
+npm run dev
 ```
 
 ### Dependencies
 
-| Name    | Version | Link                           |
-| ------- | ------- | ------------------------------ |
-| Node.js | 18.16.0 | [Link](https://nodejs.org/en/) |
+| Name       | Version | Link                                    |
+| ---------- | ------- | --------------------------------------- |
+| Node.js    | 18.16.0 | [Link](https://nodejs.org/en/)          |
+| TypeScript | 5.1.6   | [Link](https://www.typescriptlang.org/) |
+| React      | 18.2.0  | [Link](https://reactjs.org/)            |
+| react-dom  | 18.2.0  | [Link](https://reactjs.org/)            |
+| Next.js    | 13.4    | [Link](https://nextjs.org/)             |
+| Chart.js   | 3.7.0   | [Link](https://www.chartjs.org/)        |
 
 ### Images
